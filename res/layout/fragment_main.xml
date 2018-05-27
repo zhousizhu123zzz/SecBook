@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The parent fragment for FragmentHome、FragmentMsg、FragmentShoppingCart、FragmentMe -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/container_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.zyd.widget.ViewBottomTab
+            android:id="@+id/fragmentMain_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            myattrs:tab_color="#45C01A"
+            myattrs:tab_icon="@drawable/icon_home"
+            myattrs:tab_text="@string/fragmentMain_tv_home"
+            myattrs:tab_text_size="13sp" />
+
+        <com.zyd.widget.ViewBottomTab
+            android:id="@+id/fragmentMain_tab_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            myattrs:tab_color="#45C01A"
+            myattrs:tab_icon="@drawable/icon_menus"
+            myattrs:tab_text="@string/fragmentMain_tv_menu"
+            myattrs:tab_text_size="13sp" />
+
+        <com.zyd.widget.ViewBottomTab
+            android:id="@+id/fragmentMain_tab_shoppingcart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            myattrs:tab_color="#45C01A"
+            myattrs:tab_icon="@drawable/icon_shoppingcart"
+            myattrs:tab_text="@string/fragmentMain_tv_shoppingcart"
+            myattrs:tab_text_size="13sp" />
+
+        <com.zyd.widget.ViewBottomTab
+            android:id="@+id/fragmentMain_tab_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp"
+            myattrs:tab_color="#45C01A"
+            myattrs:tab_icon="@drawable/icon_me"
+            myattrs:tab_text="@string/fragmentMain_tv_me"
+            myattrs:tab_text_size="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

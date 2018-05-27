@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#4390FB" >
+
+    <LinearLayout
+        android:id="@+id/fragmentSearch_ll_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_back"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Back"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmentSearch_rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@id/fragmentSearch_ll_back"
+        android:layout_toRightOf="@id/fragmentSearch_ll_back"
+        android:background="@drawable/style_titilebar_search" >
+
+        <ImageView
+            android:id="@+id/fragmentSearch_iv_search"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/icon_search_blue"
+            android:contentDescription="@null" />
+
+        <EditText
+            android:id="@+id/fragmentSearch_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/fragmentSearch_iv_search"
+            android:layout_toRightOf="@id/fragmentSearch_iv_search"
+            android:background="@null"
+            android:hint="@string/fragmentSearch_hint_search"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragmentSearch_tv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/fragmentSearch_tv_search"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+</RelativeLayout>

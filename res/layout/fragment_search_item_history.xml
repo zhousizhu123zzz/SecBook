@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/fragmentSearch_iv_history"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/icon_clock"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/fragmentSearch_tv_historyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/fragmentSearch_iv_history"
+        android:layout_toRightOf="@id/fragmentSearch_iv_history"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/fragmentSearch_rl_closeHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_close"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <View
+        style="@style/view_diliver_1px"
+        android:layout_below="@id/fragmentSearch_iv_history"
+        android:layout_marginTop="6dp" />
+
+</RelativeLayout>

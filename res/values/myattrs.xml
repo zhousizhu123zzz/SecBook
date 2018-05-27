@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bottom Tab View -->
+    <declare-styleable name="ViewBottomTab">
+        <attr name="tab_icon" format="reference"></attr>
+        <attr name="tab_color" format="color"></attr>
+        <attr name="tab_text" format="string"></attr>
+        <attr name="tab_text_size" format="dimension"></attr>
+    </declare-styleable>
+
+    <!-- Banner Circle View -->
+    <declare-styleable name="ViewBannerCircle">
+        <attr name="banner_circle_icon" format="reference"></attr>
+        <attr name="banner_circle_color" format="color"></attr>
+    </declare-styleable>
+
+    <!-- Auto Line TextView -->
+    <declare-styleable name="ViewAutoLineText">
+        <attr name="textSize" format="integer"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textStyle" format="reference"></attr>
+        <attr name="textPaddingLeft" format="dimension"></attr>
+        <attr name="textPaddingRight" format="dimension"></attr>
+        <attr name="textPaddingBottom" format="dimension"></attr>
+        <attr name="textPaddingTop" format="dimension"></attr>
+        <attr name="textMargin" format="dimension"></attr>
+        <attr name="linePaddingLeft" format="dimension"></attr>
+        <attr name="linePaddingRight" format="dimension"></attr>
+        <attr name="linePaddingTop" format="dimension"></attr>
+        <attr name="linePaddingBottom" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>

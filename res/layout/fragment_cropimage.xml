@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/fragmentCropImage_btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/style_fragment_shoppingcart_hometag"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/Finish" />
+
+    <LinearLayout
+        android:id="@+id/fragmentCropImage_ll_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/fragmentCropImage_btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/style_fragment_shoppingcart_hometag"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/Confirm" />
+
+        <Button
+            android:id="@+id/fragmentCropImage_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_fragment_shoppingcart_hometag"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/Cancel" />
+    </LinearLayout>
+
+    <com.zyd.widget.CropImageView
+        android:id="@+id/fragmentCropImage_cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fragmentCropImage_btn_ok"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

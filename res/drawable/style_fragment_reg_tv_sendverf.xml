@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题栏中搜索输入框的背景 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#FFFFFF" />
+
+    <corners android:radius="5dp" />
+
+    <gradient
+        android:endColor="#1C86EE"
+        android:startColor="#1C86EE" />
+
+    <stroke
+        android:width="1px"
+        android:color="#B0B0B0" />
+
+</shape>

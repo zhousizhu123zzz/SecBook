@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" >
+
+        <ImageView
+            android:id="@+id/fragmentLoginRegister_iv_telNo"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_phone"
+            android:checked="false"
+            android:contentDescription="@null" />
+
+        <EditText
+            android:id="@+id/fragmentLoginRegister_et_telNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/fragmentLogin_hint_telNo"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <View
+            style="@style/view_diliver_1px"
+            android:layout_below="@id/fragmentLoginRegister_iv_telNo"
+            android:layout_marginTop="2dp"
+            android:background="#595959" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="15dp" >
+
+        <ImageView
+            android:id="@+id/fragmentLoginRegister_iv_verf"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_verf"
+            android:checked="false"
+            android:contentDescription="@null" />
+
+        <EditText
+            android:id="@+id/fragmentRegister_et_verf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/fragmentLogin_hint_verf"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragmentLoginRegister_tv_sendVerf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/style_fragment_reg_tv_sendverf"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:text="@string/fragmentLogin_tv_verf"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <View
+            style="@style/view_diliver_1px"
+            android:layout_below="@id/fragmentLoginRegister_iv_verf"
+            android:layout_marginTop="4dp"
+            android:background="#595959" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/fragmentLoginRegister_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/style_fragment_login_btn_login"
+        android:padding="5dp"
+        android:text="@string/fragmentLogin_tv_register"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/fragmentLoginRegister_rl_back2Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/fragmentLoginRegister_iv_back2Login"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_back_black"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@id/fragmentLoginRegister_iv_back2Login"
+            android:layout_toRightOf="@id/fragmentLoginRegister_iv_back2Login"
+            android:text="@string/fragmentLogin_tv_back2Login"
+            android:textColor="#36648B"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

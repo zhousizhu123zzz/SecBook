@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecBooks</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="TitleEN">SecBook</string>
+    <string name="TitleCN">二手图书交易系统</string>
+    <string name="ViewMore">查看更多</string>
+    <string name="Change">换一换</string>
+    <string name="Recommend">为您推荐</string>
+    <string name="Home">商城</string>
+    <string name="Back">返回</string>
+    <string name="Confirm">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="ToLogin">前&#8201;往&#8201;登&#8201;录</string>
+    <string name="NotToLogin">暂&#8201;不&#8201;登&#8201;录</string>
+    <string name="IsToLogin">您还未登录，是否前往登录界面？</string>
+    <string name="Save">保存</string>
+    <string name="Finish">完&#8201;&#8201;&#8201;成</string>
+    <string name="ServerEx">服务器异常</string>
+    <string name="ClickToRefresh">点击刷新</string>
+    <string name="Zero">0</string>
+
+    <!-- FragmentMain -->
+    <string name="fragmentMain_tv_home">主页</string>
+    <string name="fragmentMain_tv_menu">分类</string>
+    <string name="fragmentMain_tv_shoppingcart">购物车</string>
+    <string name="fragmentMain_tv_me">我的</string>
+
+    <!-- FragmentLogin -->
+    <string name="fragmentLogin_hint_userName">用户名/手机/邮箱</string>
+    <string name="fragmentLogin_hint_password">密码</string>
+    <string name="fragmentLogin_btn_login">登录</string>
+    <string name="fragmentLogin_tv_register">注册</string>
+    <string name="fragmentLogin_tv_retrieve">找回密码</string>
+    <string name="fragmentLogin_tv_copyright">Copyright © 2018&#8211;2019 朱永地</string>
+    <string name="fragmentLogin_hint_telNo">手机号</string>
+    <string name="fragmentLogin_hint_verf">验证码</string>
+    <string name="fragmentLogin_tv_verf">发送验证码</string>
+    <string name="fragmentLogin_tv_back2Login">返回登录</string>
+
+    <!-- FragmentHome -->
+    <string name="fragmentHome_tv_title">SecBook</string>
+    <string name="fragmentHome_hint_search">书名/作者</string>
+    <string name="fragmentHome_tv_menu">全部分类</string>
+    <string name="fragmentHome_tv_ranklists">排行榜</string>
+    <string name="fragmentHome_tv_education">教辅</string>
+    <string name="fragmentHome_tv_novel">小说</string>
+    <string name="fragmentHome_tv_history">历史</string>
+    <string name="fragmentHome_tv_technology">科技</string>
+    <string name="fragmentHome_tv_iatrology">医学</string>
+    <string name="fragmentHome_tv_career">职场</string>
+    <string name="fragmentHome_tv_reco">每日推荐</string>
+    <string name="fragmentHome_tv_hot">重磅畅销</string>
+    <string name="fragmentHome_tv_new">新书上架</string>
+    <string name="fragmentHome_tv_clear">清仓甩卖</string>
+
+    <!-- FragmentMenus -->
+    <string name="fragmentMenu_tv_title">全部分类</string>
+
+    <!-- FragmentShoppingCart -->
+    <string name="fragmentShoppingCart_tv_title">购物车</string>
+    <string name="fragmentShoppingCart_tv_nodata">购物车空空如也~~</string>
+    <string name="fragmentShoppingCart_tv_go2Mall">商城逛逛</string>
+    <string name="fragmentShoppingCart_tv_trySearch">搜索买书</string>
+
+    <!-- FragmentMe -->
+    <string name="fragmentMe_tv_point">积分</string>
+    <string name="fragmentMe_tv_balance">余额</string>
+    <string name="fragmentMe_tv_follow">商品关注</string>
+    <string name="fragmentMe_tv_histroy">浏览记录</string>
+    <string name="fragmentMe_tv_myOrder">我的订单</string>
+    <string name="fragmentMe_tv_viewMoreOrders">查看更多订单</string>
+    <string name="fragmentMe_tv_myAddress">我的地址</string>
+    <string name="fragmentMe_tv_myBalance">我的余额</string>
+    <string name="fragmentMe_tv_myPoint">我的积分</string>
+    <string name="fragmentMe_tv_myCoupon">我的优惠券</string>
+    <string name="fragmentMe_tv_myEvaluate">我的评价</string>
+    <string name="fragmentMe_tv_settings">设置</string>
+
+    <!-- FragmentCoupon -->
+    <string name="fragmentCoupon_tv_title">优惠券</string>
+    <string name="fragmentCoupon_tv_used">已使用</string>
+    <string name="fragmentCoupon_tv_unused">未使用</string>
+    <string name="fragmentCoupon_tv_expired">已过期</string>
+    <string name="fragmentCoupon_tv_nodata">您没有任何优惠券</string>
+
+    <!-- FragmentSearch -->
+    <string name="fragmentSearch_hint_search">书名/作者</string>
+    <string name="fragmentSearch_tv_search">搜索</string>
+    <string name="fragmentSearch_tv_hot">大家热搜</string>
+    <string name="fragmentSearch_tv_history">历史搜索</string>
+
+    <!-- FragmentUserInfo -->
+    <string name="fragmentUserInfo_tv_title">个人信息</string>
+    <string name="fragmentUserInfo_tv_pic">头像</string>
+    <string name="fragmentUserInfo_tv_userName">用户名</string>
+    <string name="fragmentUserInfo_tv_nickName">昵称</string>
+    <string name="fragmentUserInfo_tv_sex">性别</string>
+    <string name="fragmentUserInfo_tv_birthday">出生日期</string>
+    <string name="fragmentUserInfo_tv_exitLogin">退出登录</string>
+
+    <!-- FragmentUserInfoSex -->
+    <string name="fragmentUserInfoSex_tv_title">修改性别</string>
+    <string name="fragmentUserInfoSex_tv_male">男</string>
+    <string name="fragmentUserInfoSex_tv_female">女</string>
+    <string name="fragmentUserInfoSex_tv_secret">保密</string>
+
+    <!-- FragmentUserInfoNickName -->
+    <string name="fragmentUserInfoNickName_tv_title">修改昵称</string>
+    <string name="fragmentUserInfoNickName_hint_nickName">请输入昵称</string>
+    <string name="fragmentUserInfoNickName_tv_hint">4-20个字符,可由中英文、数字、"&#8211;"、"_"组成</string>
+
+    <!-- FragmentSettings -->
+    <string name="fragmentSettings_tv_title">设置</string>
+
+    <!-- FragmentAddress -->
+    <string name="fragemntAddress_tv_title">收货地址管理</string>
+    <string name="fragmentAddress_tv_add">新建地址</string>
+    <string name="fragmentAddress_tv_setToIndex">设为默认</string>
+    <string name="fragmentAddress_tv_alter">修改</string>
+    <string name="fragmentAddress_tv_delete">删除</string>
+    <string name="fragmentAddressAdd_tv_add">添加收货地址</string>
+    <string name="fragmentAddressAdd_tv_receiptPerson">收货人:</string>
+    <string name="fragmentAddressAdd_tv_telNo">手机号码:</string>
+    <string name="fragmentAddressAdd_tv_address">详细地址:</string>
+
+    <!-- FragmentBook -->
+    <string name="fragmentBook_tv_product">商品</string>
+    <string name="fragmentBook_tv_details">详情</string>
+    <string name="fragmentBook_tv_collection">收藏</string>
+    <string name="fragmentBook_tv_shoppingCart">购物车</string>
+    <string name="fragmentBook_tv_joinToShoppingCart">加入购物车</string>
+    <string name="fragmentBook_tv_buyNow">立即购买</string>
+
+    <!-- FragmentBookDetails -->
+    <string name="fragmentBookDetails_tv_bookName">书名:</string>
+    <string name="fragmentBookDetails_tv_author">作者:</string>
+    <string name="fragmentBookDetails_tv_bookDesc">描述:</string>
+    <string name="fragmentBookDetails_tv_storage">库存:</string>
+    <string name="fragmentBookDetails_tv_price">价格:</string>
+    <string name="fragmentBookDetails_tv_menu">分类:</string>
+
+    <!-- FragmentRank -->
+    <string name="fragmentRank_tv_title">排行榜</string>
+    <string name="fragmentRank_tv_hot">热销榜</string>
+    <string name="fragmentRank_tv_new">新书榜</string>
+    <string name="fragmentRank_tv_clear">清仓榜</string>
+    <string name="fragmentRank_tv_upTime">上架时间</string>
+    <string name="fragmentRank_tv_price">价格</string>
+    <string name="fragmentRank_tv_recom">推荐</string>
+
+</resources>

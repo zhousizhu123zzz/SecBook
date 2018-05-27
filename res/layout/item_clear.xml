@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主页LV  > 清仓甩卖   > item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragmentHome_tv_clear"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/itemClear_tv_viewMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableEnd="@drawable/icon_forward"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/icon_forward"
+            android:text="@string/ViewMore"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <com.zyd.widget.ViewListInListView
+        android:id="@+id/fragmentHome_itemClear_lv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:divider="#FFFFFF"
+        android:dividerHeight="20dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

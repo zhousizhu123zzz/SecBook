@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/fragmentBookList_ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/icon_back_black"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Home"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fragmentBookList_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="图书列表"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View style="@style/view_diliver_1px" />
+
+    <LinearLayout
+        android:id="@+id/fragmentBookList_ll_bookType"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <com.zyd.widget.AutoLineTextView
+            android:id="@+id/fragmentBookList_bigtypeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            myattrs:linePaddingBottom="5dp"
+            myattrs:linePaddingLeft="10dp"
+            myattrs:linePaddingRight="5dp"
+            myattrs:linePaddingTop="10dp"
+            myattrs:textColor="#000000"
+            myattrs:textMargin="10dp"
+            myattrs:textPaddingBottom="5dp"
+            myattrs:textPaddingLeft="8dp"
+            myattrs:textPaddingRight="8dp"
+            myattrs:textPaddingTop="5dp"
+            myattrs:textSize="13"
+            myattrs:textStyle="@drawable/style_fragment_shoppingcart_tv_tag" />
+
+        <View
+            style="@style/view_diliver_1px"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <com.zyd.widget.AutoLineTextView
+            android:id="@+id/fragmentBookList_smallTypeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            myattrs:linePaddingBottom="5dp"
+            myattrs:linePaddingLeft="10dp"
+            myattrs:linePaddingRight="5dp"
+            myattrs:linePaddingTop="5dp"
+            myattrs:textColor="#000000"
+            myattrs:textMargin="10dp"
+            myattrs:textPaddingBottom="5dp"
+            myattrs:textPaddingLeft="8dp"
+            myattrs:textPaddingRight="8dp"
+            myattrs:textPaddingTop="5dp"
+            myattrs:textSize="13"
+            myattrs:textStyle="@drawable/style_fragment_shoppingcart_tv_tag" />
+
+        <View style="@style/view_diliver_1px" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/fragmentBookList_swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/fragmentBookList_lv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:padding="10dp"
+                android:scrollbars="none" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+</LinearLayout>

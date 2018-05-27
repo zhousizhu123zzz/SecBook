@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="lv_bigtype_unfocused">#DEDEDE</color>
+    <color name="lv_bigtype_focused">#FFFFFF</color>
+    
+</resources>

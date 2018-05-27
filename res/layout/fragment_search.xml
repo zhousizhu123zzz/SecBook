@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/fragment_search_titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentSearch_tv_hot"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <com.zyd.widget.AutoLineTextView
+                android:id="@+id/fragmentSearch_hotSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                myattrs:linePaddingBottom="5dp"
+                myattrs:linePaddingLeft="10dp"
+                myattrs:linePaddingRight="5dp"
+                myattrs:linePaddingTop="5dp"
+                myattrs:textColor="#000000"
+                myattrs:textMargin="10dp"
+                myattrs:textPaddingBottom="5dp"
+                myattrs:textPaddingLeft="8dp"
+                myattrs:textPaddingRight="8dp"
+                myattrs:textPaddingTop="5dp"
+                myattrs:textSize="13"
+                myattrs:textStyle="@drawable/style_fragment_shoppingcart_tv_tag" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragmentSearch_ll_historySearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentSearch_tv_history"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/fragmentSearch_lv_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#DEDEDE"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

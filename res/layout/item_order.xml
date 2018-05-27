@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <include layout="@layout/item_clear_item" />
+
+    <View style="@style/view_diliver_1px" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/itemOrder_tv_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="2"
+            android:textColor="#DEDEDE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/itemOrder_tv_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="66.66"
+            android:textColor="#FF0000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View style="@style/view_diliver_1px" />
+
+</LinearLayout>

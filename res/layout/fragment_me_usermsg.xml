@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/fragmentMe_ll_point"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/fragmentMe_tv_point"
+            android:textColor="#4F4F4F"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragmentMe_tv_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View style="@style/view_diliver_1px_vertical" />
+
+    <LinearLayout
+        android:id="@+id/fragmentMe_ll_balance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/fragmentMe_tv_balance"
+            android:textColor="#4F4F4F"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragmentMe_tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View style="@style/view_diliver_1px_vertical" />
+
+    <LinearLayout
+        android:id="@+id/fragmentMe_ll_interest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="我的收藏"
+            android:textColor="#4F4F4F"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragmentMe_tv_interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View style="@style/view_diliver_1px_vertical" />
+
+    <LinearLayout
+        android:id="@+id/fragmentMe_ll_myStore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="我的店铺"
+            android:textColor="#4F4F4F"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fragmentMe_tv_myStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

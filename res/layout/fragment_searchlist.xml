@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/fragment_search_titlebar" />
+
+    <RelativeLayout
+        android:id="@+id/fragmentSearchList_rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center" >
+
+        <ListView
+            android:id="@+id/fragmentSearchList_lv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:padding="10dp"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</LinearLayout>
